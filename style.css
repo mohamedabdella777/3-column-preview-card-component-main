@@ -18,10 +18,10 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 55%;
+    height: 60%;
     width: 65%;
     font-family: "Onest", sans-serif;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .box1{
   background: hsl(31, 77%, 52%);
@@ -80,7 +80,7 @@ p{
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
-    left: 30px;
+    left: 49px;
     bottom: 40px;
 }
 .box1 button{
@@ -149,7 +149,7 @@ p{
 }
 .content button{
     font-weight: bold;
-    left: 30px;
+    left: 65px;
     bottom: 10px;
     padding: 5px 10px;
     margin-bottom: 25px;
@@ -162,8 +162,6 @@ img{
 
 /*tablets(small screens)*/
   @media (min-width:376px)  and (max-width:720px){
-
-
     .content{
         flex-direction: column;
         height: 100%;
@@ -183,9 +181,6 @@ img{
 }
 p{
     font-size: 12px;
-}
-.content button{
-   
 }
 
   }
